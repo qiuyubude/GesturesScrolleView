@@ -4,7 +4,7 @@
 //
 //  Created by YSZ on 2019/6/26.
 //  Copyright © 2019 YSZ. All rights reserved.
-//
+//  GitHub地址：https://github.com/qiuyubude/GesturesScrolleView
 
 #import "LQWebView.h"
 
