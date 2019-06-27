@@ -1,8 +1,5 @@
 # WebView与ScrollView滑动交互
 
-GitHub地址 ：https://github.com/qiuyubude/GesturesScrolleView
-
-简书地址：https://www.jianshu.com/p/5ee0c074a04d
 
 >  由于项目当中涉及webView与scrollView的滑动交互，一开始是通过计算webView的高度并且禁用webView的滑动，然后改变scrollView的contentSize去实现滑动操作，但这种做法当webView加载的内容里图片过多时会造成内存爆满，所以换了一种做法去实现。
 
@@ -109,3 +106,6 @@ GitHub地址 ：https://github.com/qiuyubude/GesturesScrolleView
 
 *该处理方式不仅试用于webView与scrollView也试用于tableView于ScrollView的交互。处理方式是一样的，都是通过BOOL 属性去控制是否可滑动，而是否可滑动的处理是通过在ScrollView的代理方法scrollViewDidScroll去控制ScrollView的contentOffset实现的。*
 
+GitHub地址 ：https://github.com/qiuyubude/GesturesScrolleView
+
+简书地址：[https://www.jianshu.com/p/5ee0c074a04d](https://www.jianshu.com/p/5ee0c074a04d)
