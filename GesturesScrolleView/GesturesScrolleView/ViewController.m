@@ -42,7 +42,7 @@
     
     self.webV = [[LQWebView alloc]initWithFrame:CGRectMake(0, TopViewHeight, self.view.frame.size.width, self.view.frame.size.height)];
     self.webV.backgroundColor = [UIColor redColor];
-    [self.webV loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://www.jianshu.com/p/771a8cc91f2b"]]];
+    [self.webV loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://www.jianshu.com/p/5ee0c074a04d"]]];
     [self.scrollV addSubview:self.webV];
     
     
