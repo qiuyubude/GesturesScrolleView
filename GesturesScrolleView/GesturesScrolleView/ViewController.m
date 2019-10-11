@@ -83,7 +83,12 @@
             if (self.isCanScroll) {
                 self.scrollV.contentOffset = CGPointMake(0, offY);
             }else{
-                self.scrollV.contentOffset = CGPointMake(0, TopViewHeight);
+                if (self.webV.isWebCanScroll && self.webV.scrollView.contentOffset.y == 0) { //解决临界值问题
+                    self.isCanScroll = YES;
+                    self.webV.isWebCanScroll = NO;
+                } else {
+                    self.scrollV.contentOffset = CGPointMake(0, TopViewHeight);
+                }
                 
             }
         }
